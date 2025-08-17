@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronnie Yap - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #ffffff;
+            color: #000000;
+        }
+        h1, h2, h3 {
+            font-family: sans-serif;
+        }
+        .section-header {
+            border-bottom: 1px solid #000000;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+        .timeline-item {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.25rem;
+            width: 6px;
+            height: 6px;
+            background: #000000;
+            border-radius: 50%;
+        }
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: 2px;
+            top: 0.75rem;
+            width: 1px;
+            height: calc(100% - 0.5rem);
+            background: #000000;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 1.25rem;
+        }
+        .skill-section ul {
+            list-style-type: none;
+            margin-left: 0;
+        }
+        .skill-section li {
+            margin-bottom: 0.25rem;
+        }
+        a {
+            color: #0000EE;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="text-base leading-relaxed">
+    <div class="container mx-auto px-4 py-8 max-w-3xl">
+        <!-- Header -->
+        <header class="mb-8">
+            <h1 class="text-3xl font-bold">Ronnie Yap</h1>
+            <p class="text-sm">PMP | Singapore</p>
+        </header>
+
+        <!-- About -->
+        <section class="mb-8">
+            <h2 class="text-xl section-header">About</h2>
+            <p class="text-sm">
+                Specializing in Project Management, I have experience in designing, planning, and managing processes. I work on developing custom-coded tools to help streamline daily tasks and support team improvements through practical solutions, which has helped me build positive relationships in my roles. I believe leadership involves taking accountability for mistakes, mediating conflicts to promote team harmony, and providing resources to help team members do their best.
+            </p>
+
+            <div class="mt-2 text-sm">
+                <ul class="text-sm">
+                    <li>Age: 34 years old</li>
+                    <li>Residency: Singaporean</li>
+                    <li>Marital Status: Married</li>
+                    <li>Driving License: Class 3 (Singapore)</li>
+                    <li>Languages: Fluent in English, Malay, Mandarin, and Cantonese</li>
+                    <li>Experience: Contract Management, Project Management, and Data Analytics</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Career -->
+        <section class="mb-8">
+            <h2 class="text-xl section-header">Career</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3 class="text-base font-bold">Senior Engineer (Contract, Supply Chain and Production)</h3>
+                    <p class="text-sm">ST Engineering | Nov 2024 – Present</p>
+                    <ul class="text-sm mt-1">
+                        <li>Lead RTS Platform Screen Door project, managing production lifecycle from tender to delivery.</li>
+                        <li>Developed Supply Chain Management Tools and Inventory Apps to streamline departmental processes previously disorganized, discrete, and redundant.</li>
+                        <li>Collaborated with various departments to define roles and responsibilities (R&R), establish workflows and processes, addressing the long-standing "babysitting" culture.</li>      
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3 class="text-base font-bold">Project Manager</h3>
+                    <p class="text-sm">Gotion Singapore | Oct 2023 – Oct 2024</p>
+                    <ul class="text-sm mt-1">
+                        <li>Led ERP workflow deployment for procurement, sales, inventory, and production.</li>
+                        <li>Developed Excel-based operational framework, processing SGD 220M in sales orders.</li>
+                        <li>Designed Tableau dashboards for real-time visibility on key metrics.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3 class="text-base font-bold">Turnaround Planner</h3>
+                    <p class="text-sm">ExxonMobil Asia Pacific | Apr 2023 – Sept 2023</p>
+                    <ul class="text-sm mt-1">
+                        <li>Planned major turnaround operations, including P6 scheduling and procurement.</li>
+                        <li>Conducted progress tracking and site coordination.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3 class="text-base font-bold">Senior Engineer (Production)</h3>
+                    <p class="text-sm">ST Engineering | Apr 2022 – Mar 2023</p>
+                    <ul class="text-sm mt-1">
+                        <li>Managed production lifecycle for MRT Platform Screen Doors.</li>
+                        <li>Delivered projects like SITCE Exhibition and C152E Tanah Merah.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3 class="text-base font-bold">Piping Commissioning Section Lead</h3>
+                    <p class="text-sm">Sembcorp Marine Ltd | Oct 2020 – Jan 2022</p>
+                    <ul class="text-sm mt-1">
+                        <li>Led commissioning for LNG Bunker Vessel and FPSO projects.</li>
+                        <li>Implemented Trello-based tracking and weekly progress meetings.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3 class="text-base font-bold">Project Planner cum Engineer</h3>
+                    <p class="text-sm">PEC Ltd | Mar 2015 – Mar 2020</p>
+                    <ul class="text-sm mt-1">
+                        <li>Planned turnarounds like Shell Seraya (SGD 4M) and PAC TA2019 (SGD 6.9M).</li>
+                        <li>Supervised torque commissioning and site operations.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="mb-8">
+            <h2 class="text-xl section-header">Core Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="skill-section">
+                    <h3 class="text-base font-bold">Management</h3>
+                    <ul class="text-sm">
+                        <li>👥 Team Leadership & Development</li>
+                        <li>🤝 Stakeholder Engagement & Communication</li>
+                        <li>💼 Project Lifecycle Management</li>
+                        <li>⚖️ Risk Assessment & Mitigation</li>
+                        <li>🔄 Process Optimization & Efficiency</li>
+                    </ul>
+                </div>
+                <div class="skill-section">
+                    <h3 class="text-base font-bold">Data Analysis</h3>
+                    <ul class="text-sm">
+                        <li>📈 Advanced Quantitative & Statistical Analysis</li>
+                        <li>📊 Interactive Tableau Dashboards & Visualization</li>
+                        <li>🧹 Data Cleaning, Transformation & ETL Processes</li>
+                        <li>💹 Financial Modeling & Forecasting</li>
+                    </ul>
+                </div>
+                <div class="skill-section">
+                    <h3 class="text-base font-bold">Software</h3>
+                    <ul class="text-sm">
+                        <li>📑 Excel, Power Query, VBA</li>
+                        <li>📊 Tableau Dashboards</li>
+                        <li>🗓️ Primavera P6 Scheduling</li>
+                        <li>📌 Trello Task Management</li>
+                        <li>🛠️ Custom Tool Building</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="mb-8">
+            <h2 class="text-xl section-header">Education & Certifications</h2>
+            <ul class="text-sm">
+                <li>Bachelor’s Degree in Mechanical & Manufacturing System, Sheffield Hallam University (2009–2014)</li>
+                <li>Data Analytics, Vertical Institute</li>
+                <li>Project Management Professional (PMP), PMI (Credential ID: 2999011)</li>
+                <li>Organizational Transformation Foundation, PMI</li>
+                <li>Agile Hybrid Project Management, PMI</li>
+                <li>User Experience (UX) Design, Vertical Institute</li>
+            </ul>
+        </section>
+
+        <!-- Languages -->
+        <section class="mb-8">
+            <h2 class="text-xl section-header">Languages</h2>
+            <ul class="text-sm">
+                <li>English</li>
+                <li>Malay</li>
+                <li>Mandarin</li>
+                <li>Cantonese</li>
+            </ul>
+        </section>
+
+        <!-- Contact -->
+        <section class="mb-8">
+            <h2 class="text-xl section-header">Contact</h2>
+            <div class="text-sm">
+                <p><a href="https://www.linkedin.com/in/ronnieyap1001/">LinkedIn</a> | <a href="/cdn-cgi/l/email-protection#2e1c010000070b170f1e5f5e5e5f2e09030f0702400d0103">Email</a> | <a href="https://wa.me/6598943004">WhatsApp</a></p>
+                <p>Available: 1-month notice upon offer</p>
+                <p class="text-sm">
+                I would be a good fit in an environment where management is vision-driven, jobs are data-driven, and people work sincerely.
+            </p>
+                <button id="download-pdf" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">Download as PDF</button>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-sm mt-8">
+            <p>© 2025 Ronnie Yap. Hosted on GitHub Pages.</p>
+        </footer>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+<script>
+    document.getElementById('download-pdf').addEventListener('click', function() {
+        html2canvas(document.body).then(canvas => {
+            const imgData = canvas.toDataURL('image/png');
+            const { jsPDF } = window.jspdf;
+            const pdf = new jsPDF({
+                orientation: 'portrait',
+                unit: 'px',
+                format: [canvas.width, canvas.height]
+            });
+            pdf.addImage(imgData, 'PNG', 0, 0, canvas.width, canvas.height);
+            pdf.save('ronnie_yap_portfolio.pdf');
+        });
+    });
+</script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96ec6413ada2d9f1',t:'MTc1NTEzMTkyMi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
